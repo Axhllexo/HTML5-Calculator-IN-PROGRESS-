@@ -5,7 +5,35 @@
     </head>
 
     <body>
+        <div id="_calculator">
+            <div id="buttons">
+                <input id="__saved" readonly>
+                <input id="__display" readonly>
 
+                <button id="_1" onclick="inputFunc('1')">1</button>
+                <button id="_2" onclick="inputFunc('2')">2</button>
+                <button id="_3" onclick="inputFunc('3')">3</button>
+                <button id="_4" onclick="inputFunc('4')">4</button>
+                <button id="_5" onclick="inputFunc('5')">5</button>
+                <button id="_6" onclick="inputFunc('6')">6</button>
+                <button id="_7" onclick="inputFunc('7')">7</button>
+                <button id="_8" onclick="inputFunc('8')">8</button>
+                <button id="_9" onclick="inputFunc('9')">9</button>
+                <button id="_0" onclick="inputFunc('0')">0</button>
+
+                <button id="_deci" onclick="inputFunc('.')" style="font-weight: 700;">.</button>
+                <button id="_ca" onclick="inputFunc('ca')">CA</button>
+
+                <button id="_divide" onclick="inputFunc('/')">/</button>
+                <button id="_multiply" onclick="inputFunc('*')">*</button>
+                <button id="_add" onclick="inputFunc('+')">+</button>
+                <button id="_subtract" onclick="inputFunc('-')">-</button>
+
+                <button id="_on-off" onclick="inputFunc('power')">ON-OFF</button>
+                <button id="_equals" onclick="inputFunc('equate')">=</button>
+            </div>  
+            
+        </div>
     </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script> <!-- GSAP: https://gsap.com -->
     <script src="main.js"></script>

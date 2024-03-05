@@ -1,1 +1,1 @@
-console.log("animHandler.js")
+// GSAP ANIMATIONS WILL BE HANDLED HERE
